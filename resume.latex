@@ -1,0 +1,186 @@
+%-------------------------
+% Resume in Latex
+% Author : Shubhi Rani
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	  \vspace{-3pt}\scshape\raggedright\large
+	  }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+	  %-------------------------
+	  % Custom commands
+	  \newcommand{\resumeItem}[2]{
+		    \item\small{
+				        \textbf{#1}{: #2 \vspace{-2pt}}
+					  }
+					  }
+
+					  \newcommand{\resumeItemWithoutTitle}[1]{
+						    \item\small{
+								        {\vspace{-2pt}}
+									  }
+									  }
+
+									  \newcommand{\resumeSubheading}[4]{
+										    \vspace{-1pt}\item
+											        \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+													      \textbf{#1} & #2 \\
+													            \textit{\small#3} & \textit{\small #4} \\
+														        \end{tabular*}\vspace{-5pt}
+															}
+
+
+															\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+															\renewcommand{\labelitemii}{$\circ$}
+
+															\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+															\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+															\newcommand{\resumeItemListStart}{\begin{itemize}}
+															\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+															%-------------------------------------------
+															%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+															\begin{document}
+
+															%----------HEADING-----------------
+															\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+																  \textbf{{\LARGE Manish Kumar}} & Email : \href{mailto:mkkmanish128@gmail.com}{mkkmanish128@gmail.com}\\
+																    \ & Mobile : +91-7983629254
+															\end{tabular*}
+
+															%-----------EDUCATION-----------------
+															\section{Education}
+															  \resumeSubHeadingListStart
+															      \resumeSubheading
+															            {Northwestern University}{Evanston,IL}
+																          {Master of Science in Analytics}{Sep 2019 - Dec 2020}
+																	      \resumeSubheading
+																	            {Indian Institute of Technology, Roorkee}{Uttarakhand,India}
+																		          {B.tech in Chemical Engineering with M.tech in Hydrocarbon Engineering, CGPA: 8.569/10}{June 2012 - June 2017}
+																			       
+																			         %{\scriptsize \textit{Courses: Operating Systems, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Probability and Statistics and Network Security.}}
+																				   \resumeSubHeadingListEnd
+
+																				   %-----------EXPERIENCE-----------------
+																				   \section{Experience}
+																				     \resumeSubHeadingListStart
+																				       \resumeSubheading
+																				       {Sigmoid Analytics}{Bengaluru, Karnataka}
+																				       {Data Scientist }{Apr 2019 -  Aug 2019}
+																				       \resumeItemListStart
+																				               \resumeItem{Recommendation System for product page}
+																					                 {Built logic for showing five similar products on the main product page based on the product description provided by the client}
+																							          \resumeItem{Mentorship of Summer College Intern }
+																								            {Guided college intern in learning Generative Adversarial Network and its application, framing problem statement and being responsible for meeting the milestones within the eight week duration}
+																									    \resumeItemListEnd
+																									        \resumeSubheading
+																										    {Sears Holding India }{Pune, Maharashtra}
+																										        {Data Engineer and Cloud Technologist }{Aug 2017 -  Apr 2019 }
+																											    \resumeItemListStart
+																											            \resumeItem{Suggestion based data transformation ETL tool}
+																												              {Developed a smart ETL tool that uses NLP and
+																													      combination of ML algorithms to get the best model for transformations on Pyspark Dataframe based on text
+																													      entries by users}
+																													                \resumeItem{Real time data capturing through Apache Kafka and Google Pub-Sub}
+																															          {Developed consumer side Kafka
+																																  API in java to consume messages from Kafka cluster and published them on BigQuery.}
+																																            \resumeItem{Elimination of Teradata and moving to Cloud}{Developed codes in Java to parse large XML files, decrypt
+																																	    the encrypted data, compress them in avro format and push them to BigQuery, Developed code in Java and used multithreading to parse a large number of smaller sized XML files to convert them into JSON and push them to BigQuery}
+																																	              \resumeItem{POCs for choice of Cloud to replace legacy data warehouses}{Performed POCs on Snowflake, Amazon’s
+																																		      Redshift and Google’s BigQuery. Evaluated performance and ease on several parameters like cluster size
+																																		      limitations, concurrency of queries, ease of data transportation, costs and security}
+																																		               
+																																			             \resumeItemListEnd
+																																				          
+																																					      \resumeSubheading
+																																					      {University of Texas at Austin }{Austin, TX}
+																																					      {Faculty Assistant - Prof. Mukul M. Sharma  }{May 2015 -  July 2015}
+																																					      \resumeItemListStart
+																																					              \resumeItem{Data Synthesis and model development}
+																																						                {Furnished data related to efficiency of Mesh screens used for sand
+																																								exclusion while crude oil extraction using simulations, developed a model using multiple variable polynomial
+																																								regression, validated the same using statistical tools}
+																																								\resumeItemListEnd
+
+																																								 
+																																								 \resumeSubHeadingListEnd
+
+																																								 %
+																																								 %--------PROGRAMMING SKILLS------------
+																																								 \section{Skills Summary}
+																																								 \resumeSubHeadingListStart
+																																								 \resumeSubItem{Computer languages}{Java, C++, Python, C, SQL, Unix scripting}
+																																								 \resumeSubItem{Technologies and Framework}{Hadoop, PySpark, Apache Kafka, Cloud Platforms(AWS and GCP) }
+																																								 \resumeSubItem{Additional Certified Courses Taken}{Introduction to Data Science in Python (Coursera), Applied Machine
+																																								 Learning(Coursera), Applied Text Mining in Python(Coursera), Statistical Inference(Coursera), Neural Network and Deep Learning(Coursera), Improving Neural Network(Coursera), Sequence Modeling(Coursera), Convolutional Neural Network(Coursera) }
+																																								 \resumeSubHeadingListEnd
+
+
+
+
+																																								 %-----------PROJECTS-----------------
+																																								 \section{Academic Projects}
+																																								 \resumeSubHeadingListStart
+																																								 \resumeSubItem{Mathematical Modeling of Wheat Straw reinforced polymers (M.Tech Thesis)}{Identified parameters
+																																								 affecting natural fibers reinforced polymer’s strength and developed a model for the same. Validated the model usability
+																																								 using ANOVA}
+
+																																								 \resumeSubHeadingListEnd
+
+																																								 %-----------Awards-----------------
+																																								 \section{Awards / Scholarships / Academic Achievements}
+																																								 \begin{description}
+																																									 \item {Awarded with Star performer of the Quarter reward at Sears Holding India in Q1 2018}
+																																									 \item {Bagged 10 medals (3 Silver+ 7 Bronze) in Competitive Programming hosted by Hackerrank}
+																																									 \item {Qualified for the KVPY (Kishore Vaigyanik Protsahan Yojna) scholarship in 2012}
+																																								 \end{description}
+																																								 %-------------------------------------------
+
+																																								 \section{Positions of Responsibility and Extra Curricular}
+																																								 \begin{description}
+																																									 \item {Member of Philately and Numismatics club IIT Roorkee }
+																																									 \item {TES, ICUBE : An entrepreneur challenge organized by the TES Gurgaon open for all institutes, was selected
+																																										 among the top 200 teams from all over India in 2015}
+																																									 \item {Organized Blood Donation Camp and Cloth Collection Drive for Uttarakhand flood victims as a Member of NSS
+																																										 (National Service Scheme) in 2012}
+
+																																								 \end{description}
+																																								 %-------------------------------------------
+											    \end{document}
