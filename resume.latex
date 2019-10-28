@@ -106,7 +106,7 @@
 																				       {Data Scientist }{Apr 2019 -  Aug 2019}
 																				       \resumeItemListStart
 																				               \resumeItem{Recommendation System for product page}
-																					                 {Built logic for showing five similar products on the main product page based on the product description provided by the client}
+																					                 {Used Collaborative Filtering for building Recommendation Engine and developed logic to show similar products on the product page}
 																							          \resumeItem{Mentorship of Summer College Intern }
 																								            {Guided college intern in learning Generative Adversarial Network and its application, framed problem statement involving domain transfer of animated pictures to real life images and was responsible for meeting the milestones within the eight week duration}
 																									    \resumeItemListEnd
@@ -158,9 +158,10 @@
 																																								 %-----------PROJECTS-----------------
 																																								 \section{Academic Projects}
 																																								 \resumeSubHeadingListStart
-																																								 \resumeSubItem{Mathematical Modeling of Wheat Straw reinforced polymers (M.Tech Thesis)}{Identified parameters
-																																								 affecting natural fibers reinforced polymer’s strength and developed a model for the same. Validated the model usability
-																																								 using ANOVA}
+																																								 \resumeSubItem{Parallelizing the stochastic gradient method (In Progress)}
+																																							 {Literature review of synchronous and asynchronous parallel SGD methods like local SGD, Downpour SGD and EASGD along with their implementation and convergence analyses  }
+																				\resumeSubItem{Studying the correlation between Stock performance and Job postings of companies (In Progress)}	
+						                { Drawing relation between stock performances and job postings by companies coupled with various economic indicators obtained through public data set available }
 
 																																								 \resumeSubHeadingListEnd
 
@@ -169,15 +170,14 @@
 																																								 \begin{description}
 																																									 \item {Awarded with Star performer of the Quarter reward at Sears Holding India in Q1 2018}
 																																									 \item {Bagged 10 medals (3 Silver+ 7 Bronze) in Competitive Programming hosted by Hackerrank}
-																																									 \item {Qualified for the KVPY (Kishore Vaigyanik Protsahan Yojna) scholarship in 2012}
+																																								
 																																								 \end{description}
 																																								 %-------------------------------------------
 
 																																								 \section{Positions of Responsibility and Extra Curricular}
 																																								 \begin{description}
 																																									 \item {Member of Philately and Numismatics club IIT Roorkee }
-																																									 \item {TES, ICUBE : An entrepreneur challenge organized by the TES Gurgaon open for all institutes, was selected
-																																										 among the top 200 teams from all over India in 2015}
+																																								
 																																									 \item {Organized Blood Donation Camp and Cloth Collection Drive for Uttarakhand flood victims as a Member of NSS
 																																										 (National Service Scheme) in 2012}
 
