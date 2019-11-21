@@ -1,3 +1,4 @@
+
 %-------------------------
 % Resume in Latex
 % Author : Shubhi Rani
@@ -92,14 +93,16 @@
 															            {Northwestern University}{Evanston,IL}
 																          {Master of Science in Analytics}{Sep 2019 - Dec 2020}
 							            \resumeItemListStart
-								        \resumeItem{Expected Coursework:}
+								        \resumeItem{Expected Coursework}
 																					                 {Optimization in Machine Learning, Predictive Analytics, Data Mining, Neural Networks and Deep Learning, Data Visualization, Analytics Value Chain,  Big Data (MapReduce and Spark)}
 									
 										\resumeItemListEnd						      \resumeSubheading
 																	            {Indian Institute of Technology, Roorkee}{Uttarakhand,India}
 																		          {B.tech and M.Tech (Dual Degree) in Chemical Engineering , CGPA: 8.569/10}{June 2012 - June 2017}
-																			       
-																			         %{\scriptsize \textit{Courses: Operating Systems, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Probability and Statistics and Network Security.}}
+																		           \resumeItemListStart
+										\resumeItem{Achievement}
+																					                 {First Division with Distinction}									       
+											\resumeItemListEnd								         %{\scriptsize \textit{Courses: Operating Systems, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Probability and Statistics and Network Security.}}
 																				   \resumeSubHeadingListEnd
 
 																				   %-----------EXPERIENCE-----------------
@@ -110,7 +113,7 @@
 																				       {Data Scientist }{Apr 2019 -  Aug 2019}
 																				       \resumeItemListStart
 																				               \resumeItem{Recommendation System for product page}
-																					                 {Used Collaborative Filtering for building Recommendation Engine and developed logic to show similar products on the product page}
+																					                 {Used Collaborative Filtering for building Recommendation Engine thereby helping the e-commerce client realize an increase in profit by 10\% and developed logic to show similar products on the product page}
 																							          \resumeItem{Mentorship of Summer College Intern }
 																								            {Guided college intern in learning Generative Adversarial Network and its application, framed problem statement involving domain transfer of animated pictures to real life images and was responsible for meeting the milestones within the eight week duration}
 																									    \resumeItemListEnd
@@ -147,15 +150,7 @@
 																																								 \resumeSubHeadingListEnd
 
 																																								 %
-																																								 %--------PROGRAMMING SKILLS------------
-																																								 \section{Skills Summary}
-																																								 \resumeSubHeadingListStart
-																																								 \resumeSubItem{Computer languages}{Java, Python, R, C++, SQL, Shell scripting}
-																																								 \resumeSubItem{Technologies and Framework}{Hadoop, PySpark, Apache Kafka, Cloud Platforms(AWS and GCP) }
-																																								 \resumeSubItem{Additional Certified Courses Taken}{Introduction to Data Science in Python (Coursera), Applied Machine
-																																								 Learning(Coursera), Applied Text Mining in Python(Coursera), Statistical Inference(Coursera), Neural Network and Deep Learning(Coursera), Improving Neural Network(Coursera), Sequence Modeling(Coursera), Convolutional Neural Network(Coursera) }
-																																								 \resumeSubHeadingListEnd
-
+																																								
 
 
 
@@ -169,7 +164,15 @@
 
 																																								 \resumeSubHeadingListEnd
 
-																																								 %-----------Awards-----------------
+										 %--------PROGRAMMING SKILLS------------
+																																								 \section{Skills Summary}
+																																								 \resumeSubHeadingListStart
+																																								 \resumeSubItem{Computer languages}{Java, Python, R, C++, SQL, Shell scripting}
+																																								 \resumeSubItem{Technologies and Framework}{Hadoop, PySpark, Apache Kafka, Cloud Platforms(AWS and GCP) }
+																																								 \resumeSubItem{Additional Certified Courses Taken}{Introduction to Data Science in Python (Coursera), Applied Machine
+																																								 Learning(Coursera), Applied Text Mining in Python(Coursera), Statistical Inference(Coursera), Neural Network and Deep Learning(Coursera), Improving Neural Network(Coursera), Sequence Modeling(Coursera), Convolutional Neural Network(Coursera) }
+																																								 \resumeSubHeadingListEnd
+																														 %-----------Awards-----------------
 																																								 \section{Awards / Scholarships / Academic Achievements}
 																																								 \begin{description}
 																																									 \item {Awarded with Star performer of the Quarter reward at Sears Holding India in Q1 2018}
@@ -180,3 +183,4 @@
 
 																																													 %-------------------------------------------
 											    \end{document}
+
