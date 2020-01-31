@@ -91,7 +91,7 @@
 															  \resumeSubHeadingListStart
 															      \resumeSubheading
 															            {Northwestern University}{Evanston,IL}
-																          {Master of Science in Analytics}{Sep 2019 - Dec 2020}
+																          {Master of Science in Analytics , GPA 3.85/4}{Sep 2019 - Dec 2020}
 							            \resumeItemListStart
 								        \resumeItem{Expected Coursework}
 																					                 {Optimization in Machine Learning, Predictive Analytics, Data Mining, Neural Networks and Deep Learning, Data Visualization, Analytics Value Chain,  Big Data (MapReduce and Spark)}
@@ -159,8 +159,8 @@
 																																								 \resumeSubHeadingListStart
 																																								 \resumeSubItem{Parallelizing the stochastic gradient method (In Progress)}
 																																							 {Literature review of synchronous and asynchronous parallel SGD methods like local SGD, Downpour SGD and EASGD. Implement the algorithms for various configurations (number of nodes, time step, learning rate) and perform a convergence analysis.  }
-																				\resumeSubItem{Studying the correlation between Stock performance and Job postings of companies (In Progress)}	
-						                { Drawing relation between stock performances and job postings by companies coupled with various economic indicators obtained through public data set available and build a predictive model for estimating stock performance in the next thirty days}
+																				\resumeSubItem{Studying the correlation between Stock performance and Job postings of companies }	
+						                { Drew relation between stock performances and job postings by companies coupled with various economic indicators obtained through public data set available and built a predictive model for estimating stock performance in the next thirty days}
 
 																																								 \resumeSubHeadingListEnd
 
