@@ -6,10 +6,10 @@
    "name": "Heroes",
    "children": [
     {
-      "hero": "Spider-Man",
+      "hero": "jkl",
       "name": "Peter Benjamin Parker", 
       "link": "http://marvel.com/characters/54/spider-man",
-      "img":  "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_spiderman.png",
+      "img":  "https://image.shutterstock.com/image-photo/healthy-food-clean-eating-selection-600w-722718097.jpg",
       "size": 40000
     },
     {
