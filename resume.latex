@@ -108,7 +108,14 @@
 																				   %-----------EXPERIENCE-----------------
 																				   \section{Experience}
 																				     \resumeSubHeadingListStart
-																				       \resumeSubheading
+											   \resumeSubheading
+																				       {Microsoft}{Bellevue, Washington}
+																				       {Data Scientist Intern}{June 2020 -  Present}
+																				       \resumeItemListStart
+																				               \resumeItem{Policy Optimization in experiments with Heterogeneous Treatment Effect}
+																					                 {Using simulations demonstrated the need of policy optimization for experiments exhibiting heterogeneity based on attributes of users. Framed an optimization problem and obtained the best combination of attributes to ship treatment }
+									
+																									    \resumeItemListEnd									       \resumeSubheading
 																				       {Sigmoid Analytics}{Bengaluru, Karnataka}
 																				       {Data Scientist }{Apr 2019 -  Aug 2019}
 																				       \resumeItemListStart
@@ -176,11 +183,10 @@
 																																								 \section{Awards / Scholarships / Academic Achievements}
 																																								 \begin{description}
 																																									 \item {Awarded with Star performer of the Quarter reward at Sears Holding India in Q1 2018}
-																																									 \item {Bagged 10 medals (3 Silver+ 7 Bronze) in Competitive Programming hosted by Hackerrank}
+																																									
 																																								
 																																								 \end{description}
 																																								 %-------------------------------------------
 
 																																													 %-------------------------------------------
 											    \end{document}
-
