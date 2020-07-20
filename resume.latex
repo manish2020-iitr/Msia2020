@@ -1,4 +1,3 @@
-
 %-------------------------
 % Resume in Latex
 % Author : Shubhi Rani
@@ -91,14 +90,14 @@
 															  \resumeSubHeadingListStart
 															      \resumeSubheading
 															            {Northwestern University}{Evanston,IL}
-																          {Master of Science in Analytics , GPA 3.85/4}{Sep 2019 - Dec 2020}
+																          {Master of Science in Analytics , GPA 3.93/4}{Sep 2019 - Dec 2020}
 							            \resumeItemListStart
-								        \resumeItem{Expected Coursework}
-																					                 {Optimization in Machine Learning, Predictive Analytics, Data Mining, Neural Networks and Deep Learning, Data Visualization, Analytics Value Chain,  Big Data (MapReduce and Spark)}
+								        \resumeItem{Coursework}
+																					                 {Optimization in Data Science, Machine Learning, Predictive Analytics, Data Mining, Neural Networks and Deep Learning, Data Visualization, Analytics Value Chain,  Big Data (MapReduce and Spark)}
 									
 										\resumeItemListEnd						      \resumeSubheading
 																	            {Indian Institute of Technology, Roorkee}{Uttarakhand,India}
-																		          {B.tech and M.Tech (Dual Degree) in Chemical Engineering , CGPA: 8.569/10}{June 2012 - June 2017}
+																		          {B.tech and M.Tech (Dual Degree) in Chemical Engineering , CGPA: 8.57/10}{June 2012 - June 2017}
 																		           \resumeItemListStart
 										\resumeItem{Achievement}
 																					                 {First Division with Distinction}									       
@@ -113,7 +112,7 @@
 																				       {Data Scientist Intern}{June 2020 -  Present}
 																				       \resumeItemListStart
 																				               \resumeItem{Policy Optimization in experiments with Heterogeneous Treatment Effect}
-																					                 {Using simulations demonstrated the need of policy optimization for experiments exhibiting heterogeneity based on attributes of users. Framed an optimization problem and obtained the best combination of attributes to ship treatment }
+																					                 {Using simulations demonstrated the need of policy optimization for A/B tests exhibiting heterogeneity based on attributes of users. Framed an optimization problem and obtained the optimal policy for assigning segments to treatment or control }
 									
 																									    \resumeItemListEnd									       \resumeSubheading
 																				       {Sigmoid Analytics}{Bengaluru, Karnataka}
@@ -166,8 +165,7 @@
 																																								 \resumeSubHeadingListStart
 																																								 \resumeSubItem{Parallelizing the stochastic gradient method (In Progress)}
 																																							 {Literature review of synchronous and asynchronous parallel SGD methods like local SGD, Downpour SGD and EASGD. Implement the algorithms for various configurations (number of nodes, time step, learning rate) and perform a convergence analysis.  }
-																				\resumeSubItem{Studying the correlation between Stock performance and Job postings of companies }	
-						                { Drew relation between stock performances and job postings by companies coupled with various economic indicators obtained through public data set available and built a predictive model for estimating stock performance in the next thirty days}
+																				
 
 																																								 \resumeSubHeadingListEnd
 
@@ -182,7 +180,7 @@
 																														 %-----------Awards-----------------
 																																								 \section{Awards / Scholarships / Academic Achievements}
 																																								 \begin{description}
-																																									 \item {Awarded with Star performer of the Quarter reward at Sears Holding India in Q1 2018}
+																																									 \item {Star performer of the Quarter award at Sears Holding India in Q1 2018}
 																																									
 																																								
 																																								 \end{description}
